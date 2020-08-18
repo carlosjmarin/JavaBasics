@@ -1,6 +1,6 @@
 package com.school.cool;
 
-public class Pangram {
+public class Boolean {
     public static void main(String args[])
     {
         //TYPE DECLARATION DEFAULT VALUE OF boolean IS false
