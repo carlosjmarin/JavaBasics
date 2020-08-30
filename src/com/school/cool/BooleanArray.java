@@ -14,9 +14,19 @@ public class BooleanArray {
         array[3] = false;
         //BOOLEAN ARRAY OUTPUT
         System.out.println("Java boolean Array Example");
-        for(int i=0;i < array.length;i++)
+        for(int i=0; i < array.length; i++)
         {
             System.out.println("boolean array Element at : "+ i + " " + array[i]);
+        }
+
+        //another example
+        //BOOLEAN ARRAY DECLARATION AND ASSIGNMENT
+        boolean array2[] = {false,false,true,true};
+        //BOOLEAN ARRAY OUTPUT
+        System.out.println("Java boolean Array Example");
+        for(int i=0;i<array2.length;i++)
+        {
+            System.out.println("boolean array Element at : "+ i + " " + array2[i]);
         }
     }
 }
